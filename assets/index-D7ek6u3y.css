@@ -102,3 +102,5 @@ nav:not(.t-nav){transition:opacity .35s,background .4s,padding .4s,box-shadow .4
 .price[dir=ltr] .option-trigger{direction:ltr;text-align:left;padding:0 42px 0 16px}.price[dir=ltr] .option-trigger:after{left:auto;right:17px}.price[dir=ltr] .option-menu button{text-align:left}.price[dir=ltr] .option-detail{text-align:left}.price[dir=ltr] .option-lines{direction:ltr}.price[dir=ltr] .option-lines li{text-align:left;padding:0 0 0 18px}.price[dir=ltr] .option-lines li:before{right:auto;left:0}.t-day-card.reveal{opacity:0;transform:translateY(38px)}.t-day-card.reveal.in{opacity:1;transform:none}
 
 .card>.option-detail{margin-top:-12px;padding-top:0}
+
+@media(max-width:900px) and (min-height:780px){.t-hero-content{gap:6svh}.t-hero h1{font-size:min(17vw,8.5svh)}.t-hero h1:lang(fr){font-size:min(10.5vw,8.5svh)}.t-kicker{font-size:min(4.6vw,1.15rem)}.t-hero-board{width:min(60vw,36svh)}}
