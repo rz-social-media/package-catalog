@@ -20,7 +20,7 @@
 .t-lang button.active{background:#fffaf5;color:#4b0b10;opacity:1}
 .t-hero-content{display:grid;grid-template-columns:minmax(340px,.9fr) minmax(460px,1.1fr);align-items:center;gap:clamp(56px,7vw,130px);width:min(100%,1540px);height:100%;margin:0 auto;padding:110px 7vw 72px;text-align:left}
 .t-hero-board{position:relative;grid-column:1;grid-row:1;align-self:center;justify-self:center;width:min(100%,470px);margin:0;padding:8px;background:#fffbf8;border:1px solid rgba(255,255,255,.4);box-shadow:0 36px 90px -54px #120203}
-.t-hero-board img{display:block;width:100%;height:auto}
+.t-hero-board img{display:block;width:100%;height:auto;aspect-ratio:1000/1220}
 .t-hero-copy{grid-column:2;grid-row:1;align-self:center;display:flex;flex-direction:column;align-items:flex-start;margin:0;text-align:left}
 .t-kicker{font-family:"Cormorant Garamond",serif;font-style:italic;letter-spacing:.08em;max-width:420px;font-size:.98rem;line-height:1.5;opacity:.85;margin:0}
 .t-keyline{display:flex;align-items:center;gap:18px;margin:26px 0 22px;color:#ead7c4}
