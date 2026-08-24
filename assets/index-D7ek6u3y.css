@@ -61,7 +61,7 @@ nav:not(.t-nav){transition:opacity .35s,background .4s,padding .4s,box-shadow .4
 .t-day-content{position:absolute;bottom:0;left:0;right:0;padding:30px 28px}
 .t-day-number{font-family:"Cormorant Garamond",serif;font-size:3rem;line-height:1;color:#f5dfca}
 .t-day-date{font-family:"Cormorant Garamond",serif;font-style:italic;color:#e6c8b6;margin:12px 0 3px}
-.t-day-content h3{font-family:"Cormorant Garamond",serif;font-size:2.3rem;font-weight:400;line-height:1;margin:0;text-transform:none}
+.t-day-content h3{font-family:"Cormorant Garamond",serif;font-size:2.3rem;font-weight:400;line-height:1;margin:0;text-transform:none}.t-day-content[dir=ltr] h3{font-size:1.55rem;line-height:1.2}
 .t-day-content[dir=rtl]{text-align:right}
 .t-day-content[dir=rtl] .t-day-date{font-family:"Assistant",sans-serif;font-style:normal;font-size:.92rem}
 .t-day-content[dir=rtl] h3{font-family:"Assistant",sans-serif;font-weight:400;font-size:1.7rem;line-height:1.25}
