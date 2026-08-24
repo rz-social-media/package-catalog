@@ -107,4 +107,4 @@ nav:not(.t-nav){transition:opacity .35s,background .4s,padding .4s,box-shadow .4
 
 .price[dir=ltr] .amount{flex-direction:row-reverse}
 
-@keyframes theroin{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}@keyframes theronav{from{opacity:0}to{opacity:1}}.t-nav{opacity:0;animation:theronav 1.1s ease .15s forwards}.t-hero .t-kicker{opacity:0;animation:theroin 1s cubic-bezier(.2,.8,.2,1) .25s forwards}.t-hero .t-keyline{opacity:0;animation:theroin 1s cubic-bezier(.2,.8,.2,1) .4s forwards}.t-hero-copy h1{opacity:0;animation:theroin 1.1s cubic-bezier(.2,.8,.2,1) .55s forwards}.t-hero-board{opacity:0;animation:theroin 1.2s cubic-bezier(.2,.8,.2,1) .8s forwards}@keyframes therocue{from{opacity:0}to{opacity:.6}}.t-scroll-cue{opacity:0;animation:therocue 1s ease 1.35s forwards}
+@keyframes theroin{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}.t-hero-board{opacity:0;animation:theroin 1.2s cubic-bezier(.2,.8,.2,1) .25s forwards}
