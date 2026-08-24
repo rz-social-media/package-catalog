@@ -104,3 +104,5 @@ nav:not(.t-nav){transition:opacity .35s,background .4s,padding .4s,box-shadow .4
 .card>.option-detail{margin-top:-12px;padding-top:0}
 
 @media(max-width:900px) and (min-height:780px){.t-hero-content{gap:6svh}.t-hero h1{font-size:min(17vw,8.5svh)}.t-hero h1:lang(fr){font-size:min(10.5vw,8.5svh)}.t-kicker{font-size:min(4.6vw,1.15rem)}.t-hero-board{width:min(60vw,36svh)}}
+
+.price[dir=ltr] .amount{flex-direction:row-reverse}
