@@ -85,7 +85,7 @@ nav:not(.t-nav){transition:opacity .35s,background .4s,padding .4s,box-shadow .4
 
 /* Tuscany-style footer */
 .t-footer{background:#4b0b10;color:#f3e8de99;display:flex;justify-content:space-between;padding:24px 6vw;font-family:"Cormorant Garamond",serif;font-size:.85rem;letter-spacing:.08em;text-transform:uppercase}
-@media(max-width:800px){.t-footer{flex-direction:column;gap:7px;text-align:center;font-size:.72rem}}
+@media(max-width:800px){.t-footer{flex-direction:column;gap:7px;text-align:center;font-size:.72rem;justify-content:center}.t-footer span:first-child{display:none}}
 
 /* gallery matches the hero section background */
 .gallery{background:linear-gradient(180deg,rgba(60,7,12,.53),rgba(60,7,12,.13) 36%,rgba(60,7,12,.61)),linear-gradient(90deg,rgba(40,5,9,.78),rgba(0,0,0,0) 65%),#4b0b10}
