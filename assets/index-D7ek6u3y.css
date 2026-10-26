@@ -5,7 +5,7 @@
 .t-hero-image{position:absolute;inset:0;z-index:-2;transform:scale(1.02);background:#4b0b10}
 .t-hero-shade{position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(60,7,12,.53),rgba(60,7,12,.13) 36%,rgba(60,7,12,.61)),linear-gradient(90deg,rgba(40,5,9,.78),rgba(0,0,0,0) 65%)}
 .t-nav{z-index:5;display:flex;justify-content:space-between;align-items:center;padding:30px 5.5vw;position:absolute;top:0;left:0;right:0}
-.t-nav-mark{border:1px solid rgba(255,255,255,.53);border-radius:50%;font-family:"Cormorant Garamond",serif;font-size:1.35rem;font-style:italic;line-height:44px;text-align:center;width:46px;height:46px;color:#fffaf5;text-decoration:none}
+.t-nav-mark{border:1px solid rgba(255,255,255,.53);border-radius:50%;font-family:"Cormorant Garamond",serif;font-size:1.35rem;font-style:normal;line-height:44px;text-align:center;width:46px;height:46px;color:#fffaf5;text-decoration:none}
 .t-nav-left{display:flex;align-items:center;gap:16px}
 .t-nav-ig{display:flex;align-items:center;color:#fffaf5;opacity:.85;transition:opacity .25s}
 .t-nav-ig:hover{opacity:1}
